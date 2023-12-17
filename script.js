@@ -18,6 +18,60 @@ const questions = [
         ]
     },
     {
+        question: "How old is Ginny in Prisoner of Azkaban?",
+        answers:[
+            {text:"12", correct:true},
+            {text:"13", correct:false},
+            {text:"11", correct:false},
+            {text:"10", correct:false},
+        ]
+    },
+    {
+        question: "Who is the half-blood prince?",
+        answers:[
+            {text:"Albus Dumbledore", correct:false},
+            {text:"Harry Potter", correct:false},
+            {text:"Draco Malfoy", correct:false},
+            {text:"Severus Snape", correct:true},
+        ]
+    },
+    {
+        question: "Whose house elf is Dobby?",
+        answers:[
+            {text:"Weasley Family", correct:false},
+            {text:"Malfoy Family", correct:true},
+            {text:"Crouch Family", correct:false},
+            {text:"Potter Family", correct:false},
+        ]
+    },
+    {
+        question: "In which year the Triwizard Tournament occurs?",
+        answers:[
+            {text:"2", correct:false},
+            {text:"3", correct:false},
+            {text:"4", correct:true},
+            {text:"5", correct:false},
+        ]
+    },
+    {
+        question: "Which of these students is in Ravenclaw?",
+        answers:[
+            {text:"Hermoine Granger", correct:false},
+            {text:"Draco Malfoy", correct:false},
+            {text:"Dean Thomas", correct:false},
+            {text:"Luna Lovegood", correct:true},
+        ]
+    },
+    {
+        question: "Which character is a pureblood among the following?",
+        answers:[
+            {text:"Tom Riddle", correct:false},
+            {text:"James Potter", correct:true},
+            {text:"Harry Potter", correct:false},
+            {text:"Hermoine Granger", correct:false},
+        ]
+    },
+    {
         question: "Which house is Ronald Weasley in?",
         answers:[
             {text:"Hufflepuff", correct:false},
